@@ -6,7 +6,6 @@ import { NgOpenCVModule } from 'ng-open-cv';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { OpenCVOptions } from 'ng-open-cv/public_api';
-import { HelloComponent } from './hello/hello.component';
  
 
 
@@ -20,7 +19,6 @@ const openCVConfig: OpenCVOptions = {
 @NgModule({
   declarations: [
     AppComponent,
-    HelloComponent
   ],
   imports: [
     BrowserModule,

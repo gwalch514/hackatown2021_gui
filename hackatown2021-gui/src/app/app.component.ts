@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { cv } from '../assets/opencv/asm/3.4/opencv.js';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hackatown2021-gui';
+
+  
 }
